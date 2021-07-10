@@ -1,0 +1,71 @@
+.repository-container {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+.language-item {
+  width: 100%;
+  background-color: #f8f8ff;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .language-item {
+    width: 270px;
+  }
+}
+.language-image {
+  height: 70px;
+  width: 70px;
+}
+@media screen and (min-width: 768px) {
+  .language-image {
+    height: 90px;
+    width: 90px;
+  }
+}
+.language {
+  color: #e73959;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .language {
+    font-size: 18px;
+  }
+}
+.language-status-container {
+  display: flex;
+  align-items: flex-start;
+}
+.status-icon {
+  height: 12px;
+  width: 14px;
+}
+@media screen and (min-width: 768px) {
+  .status-icon {
+    height: 16px;
+    width: 16px;
+  }
+}
+.language-status {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: normal;
+  margin-left: 2px;
+}
+@media screen and (min-width: 768px) {
+  .language-status {
+    font-size: 14px;
+  }
+}

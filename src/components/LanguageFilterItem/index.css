@@ -1,0 +1,44 @@
+.language-container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.language-list {
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.lang-btn {
+  background: transparent;
+  border: none;
+  padding: 8px;
+  text-align: center;
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: bold;
+}
+.selected {
+  border: 1px solid #0284c7;
+  background: transparent;
+  border-radius: 15px;
+  padding: 8px;
+  text-align: center;
+  color: #0284c7;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+}
+@media screen and (min-width: 768px) {
+  .lang-btn {
+    padding: 12px;
+    font-size: 14px;
+  }
+  .selected {
+    padding: 12px;
+    font-size: 14px;
+  }
+}
